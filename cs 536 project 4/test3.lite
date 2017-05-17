@@ -1,0 +1,16 @@
+{
+	int a;
+	int b;
+	bool bo;
+
+	a  = 123;
+	b  = 456;
+	
+	if (bo) {
+		bool a;
+		a = b == 10;
+		bo = a != 0;
+		a= a+aa;
+	}
+	print(a+b-100);
+}

@@ -1,0 +1,116 @@
+The following is the output expected when
+ant test
+is run:
+
+Buildfile: /Users/charlesfischer/Documents/536 fall 2013/eclipse/cs 536 project 4 complete/build.xml
+checkJLexNeeded:
+JLex:
+checkCupNeeded:
+Cup:
+checkASTNeeded:
+AST:
+    [javac] Compiling 1 source file to /Users/charlesfischer/Documents/536 fall 2013/eclipse/cs 536 project 4 complete/bin
+compile:
+test:
+     [echo] ------------------------------
+     [echo]      
+     [echo]  test.csx
+     [echo]      
+     [echo] ------------------------------
+     [echo]      
+     [java] Begin CSX compilation of test.csx.
+     [java] CSX program parsed correctly.
+     [java] Error (line 6): i is already declared.
+     [java] Error (line 10): The initializer must be of type Integer
+     [java] Error (line 20): ten is already declared.
+     [java] Error (line 22): ar2 must have more than 0 elements.
+     [java] Error (line 30): Target of assignment can't be changed.
+     [java] Error (line 33): Target of ++ can't be changed.
+     [java] Error (line 34): Target of -- can't be changed.
+     [java] Error (line 35): Operand of ++ must be a scalar.
+     [java] Error (line 36): Operand of -- must be a scalar.
+     [java] Error (line 37): Operand of ++ must be arithmetic.
+     [java] Error (line 37): Operand of ++ must be a scalar.
+     [java] Error (line 37): Target of ++ can't be changed.
+     [java] Error (line 38): Operand of -- must be arithmetic.
+     [java] Error (line 38): Operand of -- must be a scalar.
+     [java] Error (line 38): Target of -- can't be changed.
+     [java] Error (line 40): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 41): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 42): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 43): Source and target of the assignment must have the same length.
+     [java] Error (line 45): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 48): Source and target of the assignment must have the same length.
+     [java] Error (line 50): Only arrays can be subscripted.
+     [java] Error (line 51): Array subscripts must be integer or character expressions.
+     [java] Error (line 56): Left operand of + must be arithmetic.
+     [java] Error (line 57): Left operand of - must be a scalar.
+     [java] Error (line 59): Left operand of / must be a scalar.
+     [java] Error (line 59): Left operand of / must be arithmetic.
+     [java] Error (line 60): Operands of > must both be arithmetic or both must be boolean.
+     [java] Error (line 61): Left operand of != must be a scalar.
+     [java] Error (line 62): Left operand of == must be a scalar.
+     [java] Error (line 62): Right operand of == must be a scalar.
+     [java] Error (line 62): Operands of == must both be arithmetic or both must be boolean.
+     [java] Error (line 63): Left operand of && must be a bool.
+     [java] Error (line 64): Left operand of || must be a bool.
+     [java] Error (line 65): Left operand of && must be a scalar.
+     [java] Error (line 65): Left operand of && must be a bool.
+     [java] Error (line 65): Right operand of && must be a bool.
+     [java] Error (line 66): Operand of ! must be boolean.
+     [java] Error (line 67): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 76): t may not be assigned to.
+     [java] Error (line 76): Only integers and characters may be read.
+     [java] Error (line 76): IOtest may not be assigned to.
+     [java] Error (line 76): ar may not be assigned to.
+     [java] Error (line 78): Only integers, booleans, strings, characters and character arrays may be written.
+     [java] Error (line 78): Only integers, booleans, strings, characters and character arrays may be written.
+     [java] Error (line 83): Return type of f is not void.
+     [java] Error (line 84): Return type of f is Integer
+     [java] Error (line 87): f is already declared.
+     [java] Error (line 88): Return type of f is Void
+     [java] Error (line 90): Return type of f is Void
+     [java] Error (line 96): udef is not declared.
+     [java] Error (line 97): c isn't a method.
+     [java] Error (line 99): pp requires 3 parameters.
+     [java] Error (line 100): pp requires 3 parameters.
+     [java] Error (line 101): pp requires 3 parameters.
+     [java] Error (line 102): f is called as a procedure and must therefore return void.
+     [java] Error (line 103): In the call to pp, parameter 2 has incorrect type.
+     [java] Error (line 104): In the call to pp, parameter 1 has incorrect type.
+     [java] Error (line 104): In the call to pp, parameter 2 has incorrect type.
+     [java] Error (line 105): In the call to pp, parameter 3 has incorrect type.
+     [java] Error (line 111): ff is called as a procedure and must therefore return void.
+     [java] Error (line 113): ff requires 3 parameters.
+     [java] Error (line 114): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 115): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 116): ff requires 3 parameters.
+     [java] Error (line 117): ff requires 3 parameters.
+     [java] Error (line 118): In the call to ff, parameter 2 has incorrect type.
+     [java] Error (line 119): In the call to ff, parameter 1 has incorrect type.
+     [java] Error (line 119): In the call to ff, parameter 2 has incorrect type.
+     [java] Error (line 120): In the call to ff, parameter 3 has incorrect type.
+     [java] Error (line 123): i is already declared.
+     [java] Error (line 124): j is already declared.
+     [java] Error (line 124): i is already declared.
+     [java] Error (line 124): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 132): suspend is not declared.
+     [java] Error (line 138): Only integers and characters may be read.
+     [java] Error (line 143): Right hand side of an assignment is not assignable to left hand side.
+     [java] Error (line 145): Operand of ! must be boolean.
+     [java] Error (line 146): Left operand of + must be arithmetic.
+     [java] Error (line 148): local is not declared.
+     [java] Error (line 149): local is not declared.
+     [java] Error (line 151): Operands of != must both be arithmetic or both must be boolean.
+     [java] Error (line 154): Operand of cast must be an  integer, character or boolean.
+     [java] Error (line 156): me is already declared.
+     [java] Error (line 157): main isn't a label.
+     [java] Error (line 158): L doesn't label an enclosing while loop.
+     [java] Error (line 159): xxx is not declared.
+     [java] Error (line 159): yyy is not declared.
+     [java] Error (line 164): p requires 2 parameters.
+     [java] Error (line 164): q is not declared.
+     [java] Error (line 167): None of the 2 definitions of method f match the parameters in this call.
+     [java] CSX compilation halted due to type errors.
+BUILD SUCCESSFUL
+Total time: 4 seconds

@@ -1,0 +1,75 @@
+The following is the expected output when 
+ant test
+is run:
+
+checkJLexNeeded:
+JLex:
+checkCupNeeded:
+Cup:
+checkASTNeeded:
+AST:
+    [javac] Compiling 1 source file to /Users/charlesfischer/Documents/536 fall 2013/eclipse/cs 536 project 4/bin
+compile:
+test:
+     [echo] ------------------------------
+     [echo]      
+     [echo]  test1.lite
+     [echo]      
+     [echo] ------------------------------
+     [echo]      
+     [java] Begin CSX compilation of test1.lite.
+     [java] CSX program parsed correctly.
+     [java] Error (line 3): bb is already declared.
+     [java] Error (line 4): Right operand of + must be an int.
+     [java] Error (line 4): cc is not declared.
+     [java] Error (line 4): dd is not declared.
+     [java] Error (line 5): Both the left and right hand sides of an assignment must have the same type.
+     [java] Error (line 6): Right operand of + must be an int.
+     [java] Error (line 6): cc is not declared.
+     [java] Error (line 6): dd is not declared.
+     [java] Error (line 6): The control expression of an if must be a bool.
+     [java] Error (line 7): The control expression of an if must be a bool.
+     [java] Error (line 8): ccc is not declared.
+     [java] Error (line 8): dd is not declared.
+     [java] Error (line 9): Both the left and right hand sides of an assignment must have the same type.
+     [java] Error (line 10): Left operand of - must be an int.
+     [java] Error (line 11): Only int values may be printed in CSX-lite.
+     [java] CSX compilation halted due to type errors.
+     [echo] ------------------------------
+     [echo]      
+     [echo]  test2.lite
+     [echo]      
+     [echo] ------------------------------
+     [echo]      
+     [java] Begin CSX compilation of test2.lite.
+     [java] CSX program parsed correctly.
+     [java] Error (line 7): dup is already declared.
+     [java] Error (line 8): Right operand of + must be an int.
+     [java] Error (line 9): Right operand of - must be an int.
+     [java] Error (line 10): Left operand of + must be an int.
+     [java] Error (line 11): Left operand of - must be an int.
+     [java] Error (line 13): Right operand of - must be an int.
+     [java] Error (line 15): bb is not declared.
+     [java] Error (line 15): bbb is not declared.
+     [java] Error (line 16): The control expression of an if must be a bool.
+     [java] Error (line 18): ccc is not declared.
+     [java] Error (line 18): dd is not declared.
+     [java] Error (line 20): Both the left and right hand sides of an assignment must have the same type.
+     [java] Error (line 22): aaa is not declared.
+     [java] Error (line 23): Only int values may be printed in CSX-lite.
+     [java] CSX compilation halted due to type errors.
+     [echo] ------------------------------
+     [echo]      
+     [echo]  test3.lite
+     [echo]      
+     [echo] ------------------------------
+     [echo]      
+     [java] Begin CSX compilation of test3.lite.
+     [java] CSX program parsed correctly.
+     [java] Error (line 12): Both operands of != must have the same type.
+     [java] Error (line 13): aa is not declared.
+     [java] Error (line 13): Left operand of + must be an int.
+     [java] Error (line 13): Both the left and right hand sides of an assignment must have the same type.
+     [java] CSX compilation halted due to type errors.
+BUILD SUCCESSFUL
+Total time: 8 seconds
